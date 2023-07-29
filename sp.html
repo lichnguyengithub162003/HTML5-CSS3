@@ -1,0 +1,637 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sản phẩm</title>
+    <link rel="stylesheet" href="./css/sp.css">
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+</head>
+
+<body>
+
+    <section id="wrapper">
+
+
+        <!--******************************** Thanh menu **********************************-->
+
+        <section class="menu">
+
+            <header>
+
+                <!-- Toggle -->
+                <section id="toggle">
+                    <i class="fa-solid fa-bars"></i>
+                </section>
+
+
+                <!-- Nav trên -->
+                <nav class="nav1">
+                    <ul>
+                        <li>
+                            <a href="#"><i class="fas fa-map-marker-alt"></i> Vietnam</a>
+                            <a href="#">Vietnamese <i class="fas fa-angle-down"></i></a>
+                            <a href="#"><i class="fas fa-phone-volume"></i> 1900 9090</a>
+                        </li>
+
+                        <li>
+                            <a href="#" id="panda">PANDA</a>
+                        </li>
+
+                        <li class="cart-search">
+                            <a href="#"><i class="fas fa-shopping-cart"></i> Giỏ hàng</a>
+                            <a href="#"><i class="fas fa-search"></i> Tìm kiếm</a>
+                        </li>
+                    </ul>
+                </nav>
+
+                <!-- Nav dưới -->
+                <nav class="nav2">
+                    <ul id="main-menu">
+                        <li><a href="./index.html">Trang chủ</a></li>
+                        <li><a href="./gioithieu.html">Giới thiệu</a></li>
+                        <li><a href="./sp.html">Sản phẩm <i class="fa-solid fa-caret-down"></i></a>
+                            <ul class="sub-menu">
+                                <li><a href="./sp.html">Tản văn</a></li>
+                                <li><a href="./sp.html">Kỹ năng sống</a></li>
+                                <li><a href="./sp.html">Tâm lý học - Trinh thám</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="./lienhe.html">Liên hệ</a></li>
+                        <li><a href="./Dangnhap.html"><i class="fa-solid fa-user-graduate"></i></a>
+                            <ul class="sub-menu">
+                                <li><a href="./Dangnhap.html">Đăng nhập</a></li>
+                                <li><a href="./Dangky.html">Đăng ký</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+            </header>
+
+
+            <!-- ------------------------- Banner ---------------------------------- -->
+
+            <section class="header_img"><img src="./img/slider_1.webp" alt=""></section>
+
+        </section>
+
+
+
+
+
+        <!-- ******************************* Main ************************************ -->
+
+        <main>
+
+            <!-- Title -->
+            <section class="filter_option">
+                <h2>Tất cả sách</h2>
+                <section class="filter_option_input">
+                    <p>Ưu tiên xem: </p>
+
+                    <input type="radio" name="option" checked>Hàng mới nhất
+                    <input type="radio" name="option"> Hàng cũ nhất
+                    <input type="radio" name="option"> Giá tăng dẫn
+                    <input type="radio" name="option"> Giá giảm dần
+                </section>
+            </section>
+
+
+            <section><hr width="90.5%" style=" margin: 0 auto; border: #dedede solid 0.5px;"></section>
+
+
+            <section class="main-up">
+
+                <!-- Menu -->
+                <nav class="menu-nav">
+                    <ul>
+                        <h3>Thể loại sách</h3>
+
+                        <li>
+                            <a href=""><input type="checkbox"> Tản văn</a>
+                            <a href=""><input type="checkbox"> Sách kỹ năng sống</a>
+                            <a href=""><input type="checkbox"> Sách tâm lý học</a>
+                            <a href=""><input type="checkbox"> Sách trinh thám</a>
+                            <a href=""><input type="checkbox"> Sách tình cảm</a>
+                        </li>
+                    </ul>
+
+                    <!--  -->
+                    <ul>
+                        <h3>Tác giả</h3>
+
+                        <li>
+                            <a href=""><input type="checkbox"> Nguyễn Nhật Ánh</a>
+                            <a href=""><input type="checkbox"> Mario Puzo</a>
+                            <a href=""><input type="checkbox"> Rosie Nguyễn</a>
+                            <a href=""><input type="checkbox"> Matt Haig</a>
+                            <a href=""><input type="checkbox"> Diệp Hồng Vũ</a>
+                            <a href=""><input type="checkbox"> Jeffrey Archer</a>
+                            <a href=""><input type="checkbox"> Thomas Harris</a>
+                        </li>
+                    </ul>
+
+                    <!--  -->
+                    <ul>
+                        <h3>Giá cả</h3>
+
+                        <li>
+                            <a href=""><input type="checkbox"> Giá dưới 50.000đ</a>
+                            <a href=""><input type="checkbox"> 50.000đ - 100.000đ</a>
+                            <a href=""><input type="checkbox"> 100.000đ - 200.000đ</a>
+                            <a href=""><input type="checkbox"> 200.000đ - 500.000đ</a>
+                            <a href=""><input type="checkbox"> 500.000đ - 1.000.000đ</a>
+                            <a href=""><input type="checkbox"> Giá trên 1.000.000đ</a>
+                        </li>
+                    </ul>
+
+                    <!--  -->
+                    <ul>
+                        <h3>Đánh giá</h3>
+
+                        <li>
+                            <a href=""><input type="checkbox"> <i class="fa-solid fa-star" style="color: orange;"></i><i class="fa-solid fa-star" style="color: orange;"></i><i class="fa-solid fa-star" style="color: orange;"></i><i class="fa-solid fa-star" style="color: orange;"></i><i class="fa-solid fa-star" style="color: orange;"></i> từ 5 sao</a>
+                            <a href=""><input type="checkbox"> <i class="fa-solid fa-star" style="color: orange;"></i><i class="fa-solid fa-star" style="color: orange;"></i><i class="fa-solid fa-star" style="color: orange;"></i><i class="fa-solid fa-star" style="color: orange;"></i><i class="fa-solid fa-star" style="color: rgb(159, 159, 159);"></i> từ 4 sao</a>
+                            <a href=""><input type="checkbox"> <i class="fa-solid fa-star" style="color: orange;"></i><i class="fa-solid fa-star" style="color: orange;"></i><i class="fa-solid fa-star" style="color: orange;"></i><i class="fa-solid fa-star" style="color: rgb(159, 159, 159);"></i><i class="fa-solid fa-star" style="color: rgb(159, 159, 159);"></i> từ 3 sao</a>
+                            <a href=""><input type="checkbox"> <i class="fa-solid fa-star" style="color: orange;"></i><i class="fa-solid fa-star" style="color: orange;"></i><i class="fa-solid fa-star" style="color: rgb(159, 159, 159);"></i><i class="fa-solid fa-star" style="color: rgb(159, 159, 159);"></i><i class="fa-solid fa-star" style="color: rgb(159, 159, 159);"></i> từ 2 sao</a>
+                            <a href=""><input type="checkbox"> <i class="fa-solid fa-star" style="color: orange;"></i><i class="fa-solid fa-star" style="color: rgb(159, 159, 159);"></i><i class="fa-solid fa-star" style="color: rgb(159, 159, 159);"></i><i class="fa-solid fa-star" style="color: rgb(159, 159, 159);"></i><i class="fa-solid fa-star" style="color: rgb(159, 159, 159);"></i> từ 1 sao</a>
+                            <a href=""><input type="checkbox"> <i class="fa-solid fa-star" style="color: rgb(159, 159, 159);"></i><i class="fa-solid fa-star" style="color: rgb(159, 159, 159);"></i><i class="fa-solid fa-star" style="color: rgb(159, 159, 159);"></i><i class="fa-solid fa-star" style="color: rgb(159, 159, 159);"></i><i class="fa-solid fa-star" style="color: rgb(159, 159, 159);"></i> từ 0 sao</a>
+                        </li>
+                    </ul>
+                </nav>
+
+
+
+
+
+
+                <!-- -------------------------------- Products ------------------------------- -->
+                
+                <section class="product">
+
+                        <section class="as_total">
+
+                            <!-- Tiêu đề
+                            <section class="headline">
+                                <h4>CÓ THỂ BẠN SẼ THÍCH</h4>
+                                <h3 style="margin-bottom: 15px;">BẠN ĐÃ BIẾT NHỮNG QUYỂN SÁCH NÀY CHƯA ?</h3>
+                            </section> -->
+                
+                
+                            <!-- Sản phẩm -->
+                            <ul class="products">
+                
+                                <li>
+                                    <section class="product-item">
+                                        <section class="product-top">
+                                            <a href="" class="product-thumb">
+                                                <img src="./img/SP/bố già (2).jpg" alt="Tôi là Bêtô" width="100%">
+                                            </a>
+                
+                                            <a href="./bogia.html" class="buy-now">Mua ngay</a>
+                                        </section>
+                
+                                        <section class="product-info">
+                                            <a href="#" class="product-cat">TÌNH CẢM</a> <!-- Danh mục -->
+                                            <a href="#" class="product-name">Bố già</a>
+                                            <i class="fa-solid fa-star" style="color: orange;"></i><i class="fa-solid fa-star" style="color: orange;"></i><i class="fa-solid fa-star" style="color: orange;"></i><i class="fa-solid fa-star" style="color: orange;"></i><i class="fa-solid fa-star" style="color: orange;"></i> | Đã bán 1000+
+                                            <section class="product-price">45.000 VNĐ</section>
+                                        </section>
+                                    </section>
+                                </li>
+                
+                                <!-- ----------------------------------------------------------------------------------------- -->
+                
+                                <li>
+                                    <section class="product-item">
+                                        <section class="product-top">
+                                            <a href="" class="product-thumb">
+                                                <img src="./img/SP/tôi thấy hoa vàng trên cỏ xanh.webp" alt="Tôi là Bêtô" width="100%"
+                                                    height="100%">
+                                            </a>
+                
+                                            <a href="#" class="buy-now">Mua ngay</a>
+                                        </section>
+                
+                                        <section class="product-info">
+                                            <a href="#" class="product-cat">TẢN VĂN</a>
+                                            <a href="#" class="product-name">Tôi thấy hoa vàng trên cỏ xanh</a>
+                                            <i class="fa-solid fa-star" style="color: orange;"></i><i class="fa-solid fa-star" style="color: orange;"></i><i class="fa-solid fa-star" style="color: orange;"></i><i class="fa-solid fa-star" style="color: orange;"></i><i class="fa-solid fa-star" style="color: orange;"></i> | Đã bán 1000+
+                                            <section class="product-price">45.000 VNĐ</section>
+                                        </section>
+                                    </section>
+                                </li>
+                
+                                <!-- ----------------------------------------------------------------------------------------- -->
+                
+                                <li>
+                                    <section class="product-item">
+                                        <section class="product-top">
+                                            <a href="" class="product-thumb">
+                                                <img src="./img/SP/điên.png" alt="Tôi là Bêtô" width="100%"
+                                                    height="100%">
+                                            </a>
+                
+                                            <a href="#" class="buy-now">Mua ngay</a>
+                                        </section>
+                
+                                        <section class="product-info">
+                                            <a href="#" class="product-cat">TÂM LÝ HỌC</a>
+                                            <a href="#" class="product-name">Thiên tài bên trái, kẻ điên bên phải</a>
+                                            <i class="fa-solid fa-star" style="color: orange;"></i><i class="fa-solid fa-star" style="color: orange;"></i><i class="fa-solid fa-star" style="color: orange;"></i><i class="fa-solid fa-star" style="color: orange;"></i><i class="fa-solid fa-star" style="color: orange;"></i> | Đã bán 1000+
+                                            <section class="product-price">45.000 VNĐ</section>
+                                        </section>
+                                    </section>
+                                </li>
+                
+                                <!-- ----------------------------------------------------------------------------------------- -->
+                
+                                <li>
+                                    <section class="product-item">
+                                        <section class="product-top">
+                                            <a href="" class="product-thumb">
+                                                <img src="./img/SP/hai số phận.webp" alt="Tôi là Bêtô" width="100%"
+                                                    height="100%">
+                                            </a>
+                
+                                            <a href="#" class="buy-now">Mua ngay</a>
+                                        </section>
+                
+                                        <section class="product-info">
+                                            <a href="#" class="product-cat">KỸ NĂNG SỐNG</a>
+                                            <a href="#" class="product-name">Hai số phận</a>
+                                            <i class="fa-solid fa-star" style="color: orange;"></i><i class="fa-solid fa-star" style="color: orange;"></i><i class="fa-solid fa-star" style="color: orange;"></i><i class="fa-solid fa-star" style="color: orange;"></i><i class="fa-solid fa-star" style="color: orange;"></i> | Đã bán 1000+
+                                            <section class="product-price">45.000 VNĐ</section>
+                                        </section>
+                                    </section>
+                                </li>
+                
+                                <!-- ----------------------------------------------------------------------------------------- -->
+
+                                <li>
+                                    <section class="product-item">
+                                        <section class="product-top">
+                                            <a href="" class="product-thumb">
+                                                <img src="./img/SP/mắt biếc.jpg" alt="Tôi là Bêtô" width="100%"
+                                                    height="100%">
+                                            </a>
+                
+                                            <a href="#" class="buy-now">Mua ngay</a>
+                                        </section>
+                
+                                        <section class="product-info">
+                                            <a href="#" class="product-cat">TẢN VĂN</a>
+                                            <a href="#" class="product-name">Mắt biếc</a>
+                                            <i class="fa-solid fa-star" style="color: orange;"></i><i class="fa-solid fa-star" style="color: orange;"></i><i class="fa-solid fa-star" style="color: orange;"></i><i class="fa-solid fa-star" style="color: orange;"></i><i class="fa-solid fa-star" style="color: orange;"></i> | Đã bán 1000+
+                                            <section class="product-price">45.000 VNĐ</section>
+                                        </section>
+                                    </section>
+                                </li>
+                
+                                <!-- ----------------------------------------------------------------------------------------- -->
+
+                                <li>
+                                    <section class="product-item">
+                                        <section class="product-top">
+                                            <a href="" class="product-thumb">
+                                                <img src="./img/SP/ngồi khóc trên cây.webp" alt="Tôi là Bêtô" width="100%" height="100%">
+                                            </a>
+                
+                                            <a href="#" class="buy-now">Mua ngay</a>
+                                        </section>
+                
+                                        <section class="product-info">
+                                            <a href="#" class="product-cat">TẢN VĂN</a>
+                                            <a href="#" class="product-name">Ngồi khóc trên cây</a>
+                                            <i class="fa-solid fa-star" style="color: orange;"></i><i class="fa-solid fa-star" style="color: orange;"></i><i class="fa-solid fa-star" style="color: orange;"></i><i class="fa-solid fa-star" style="color: orange;"></i><i class="fa-solid fa-star" style="color: orange;"></i> | Đã bán 1000+
+                                            <section class="product-price">45.000 VNĐ</section>
+                                        </section>
+                                    </section>
+                                </li>
+                
+                                <!-- ----------------------------------------------------------------------------------------- -->
+
+                                <li>
+                                    <section class="product-item">
+                                        <section class="product-top">
+                                            <a href="" class="product-thumb">
+                                                <img src="./img/SP/sự im lặng của bầy cừu.jpg" alt="Tôi là Bêtô" width="100%"
+                                                    height="100%">
+                                            </a>
+                
+                                            <a href="#" class="buy-now">Mua ngay</a>
+                                        </section>
+                
+                                        <section class="product-info">
+                                            <a href="#" class="product-cat">TRINH THÁM</a>
+                                            <a href="#" class="product-name">Sự im lặng của bầy cừu</a>
+                                            <i class="fa-solid fa-star" style="color: orange;"></i><i class="fa-solid fa-star" style="color: orange;"></i><i class="fa-solid fa-star" style="color: orange;"></i><i class="fa-solid fa-star" style="color: orange;"></i><i class="fa-solid fa-star" style="color: orange;"></i> | Đã bán 1000+
+                                            <section class="product-price">45.000 VNĐ</section>
+                                        </section>
+                                    </section>
+                                </li>
+                
+                                <!-- ----------------------------------------------------------------------------------------- -->
+
+                                <li>
+                                    <section class="product-item">
+                                        <section class="product-top">
+                                            <a href="" class="product-thumb">
+                                                <img src="./img/SP/thương nhớ trà long.webp" alt="Tôi là Bêtô" width="100%"
+                                                    height="100%">
+                                            </a>
+                
+                                            <a href="#" class="buy-now">Mua ngay</a>
+                                        </section>
+                
+                                        <section class="product-info">
+                                            <a href="#" class="product-cat">TẢN VĂN</a>
+                                            <a href="#" class="product-name">Thương nhớ Trà Long</a>
+                                            <i class="fa-solid fa-star" style="color: orange;"></i><i class="fa-solid fa-star" style="color: orange;"></i><i class="fa-solid fa-star" style="color: orange;"></i><i class="fa-solid fa-star" style="color: orange;"></i><i class="fa-solid fa-star" style="color: orange;"></i> | Đã bán 1000+
+                                            <section class="product-price">45.000 VNĐ</section>
+                                        </section>
+                                    </section>
+                                </li>
+                
+                                <!-- ----------------------------------------------------------------------------------------- -->
+
+                                <li>
+                                    <section class="product-item">
+                                        <section class="product-top">
+                                            <a href="" class="product-thumb">
+                                                <img src="./img/SP/tội phạm.jpg" alt="Tôi là Bêtô" width="100%"
+                                                    height="100%">
+                                            </a>
+                
+                                            <a href="#" class="buy-now">Mua ngay</a>
+                                        </section>
+                
+                                        <section class="product-info">
+                                            <a href="#" class="product-cat">TÂM LÝ HỌC - TRINH THÁM</a>
+                                            <a href="#" class="product-name">Phác họa chân dung kẻ phạm tội</a>
+                                            <i class="fa-solid fa-star" style="color: orange;"></i><i class="fa-solid fa-star" style="color: orange;"></i><i class="fa-solid fa-star" style="color: orange;"></i><i class="fa-solid fa-star" style="color: orange;"></i><i class="fa-solid fa-star" style="color: orange;"></i> | Đã bán 1000+
+                                            <section class="product-price">45.000 VNĐ</section>
+                                        </section>
+                                    </section>
+                                </li>
+                
+                                <!-- ----------------------------------------------------------------------------------------- -->
+
+                                <li>
+                                    <section class="product-item">
+                                        <section class="product-top">
+                                            <a href="" class="product-thumb">
+                                                <img src="./img/SP/trại hoa vàng.webp" alt="Tôi là Bêtô" width="100%"
+                                                    height="100%">
+                                            </a>
+                
+                                            <a href="#" class="buy-now">Mua ngay</a>
+                                        </section>
+                
+                                        <section class="product-info">
+                                            <a href="#" class="product-cat">TẢN VĂN</a>
+                                            <a href="#" class="product-name">Trại hoa vàng</a>
+                                            <i class="fa-solid fa-star" style="color: orange;"></i><i class="fa-solid fa-star" style="color: orange;"></i><i class="fa-solid fa-star" style="color: orange;"></i><i class="fa-solid fa-star" style="color: orange;"></i><i class="fa-solid fa-star" style="color: orange;"></i> | Đã bán 1000+
+                                            <section class="product-price">45.000 VNĐ</section>
+                                        </section>
+                                    </section>
+                                </li>
+                
+                                <!-- ----------------------------------------------------------------------------------------- -->
+
+                                <li>
+                                    <section class="product-item">
+                                        <section class="product-top">
+                                            <a href="" class="product-thumb">
+                                                <img src="./img/SP/từ điển sử dụng loài người.webp" alt="Tôi là Bêtô" width="100%"
+                                                    height="100%">
+                                            </a>
+                
+                                            <a href="#" class="buy-now">Mua ngay</a>
+                                        </section>
+                
+                                        <section class="product-info">
+                                            <a href="#" class="product-cat">KỸ NĂNG SỐNG</a>
+                                            <a href="#" class="product-name">Từ điển sử dụng loài người</a>
+                                            <i class="fa-solid fa-star" style="color: orange;"></i><i class="fa-solid fa-star" style="color: orange;"></i><i class="fa-solid fa-star" style="color: orange;"></i><i class="fa-solid fa-star" style="color: orange;"></i><i class="fa-solid fa-star" style="color: orange;"></i> | Đã bán 1000+
+                                            <section class="product-price">45.000 VNĐ</section>
+                                        </section>
+                                    </section>
+                                </li>
+                
+                                <!-- ----------------------------------------------------------------------------------------- -->
+                                <li>
+                                    <section class="product-item">
+                                        <section class="product-top">
+                                            <a href="" class="product-thumb">
+                                                <img src="./img/SP/tuổi trẻ đáng giá bao nhiêu.jpg" alt="Tôi là Bêtô" width="100%"
+                                                    height="100%">
+                                            </a>
+                
+                                            <a href="#" class="buy-now">Mua ngay</a>
+                                        </section>
+                
+                                        <section class="product-info">
+                                            <a href="#" class="product-cat">KỸ NĂNG SỐNG</a>
+                                            <a href="#" class="product-name">Tuổi trẻ đáng giá bao nhiêu?</a>
+                                            <i class="fa-solid fa-star" style="color: orange;"></i><i class="fa-solid fa-star" style="color: orange;"></i><i class="fa-solid fa-star" style="color: orange;"></i><i class="fa-solid fa-star" style="color: orange;"></i><i class="fa-solid fa-star" style="color: orange;"></i> | Đã bán 1000+
+                                            <section class="product-price">45.000 VNĐ</section>
+                                        </section>
+                                    </section>
+                                </li>
+                
+                                <!-- ----------------------------------------------------------------------------------------- -->
+                            </ul>
+
+
+
+                            <section class="next">
+                                <ul>1</ul>
+                                <ul>2</ul>
+                                <ul>3</ul>
+                                <ul>4</ul>
+                                <ul>...</ul>
+                                <ul><i class="fa-solid fa-angle-right"></i></ul>
+                            </section>
+                        </section>                        
+                        </section>
+                    </section>
+                </section>
+            </section>
+
+
+
+
+
+
+
+
+            <!--******************************** Cart *************************************-->
+            <section class="cart">
+
+                <i class="fas fa-times"></i>
+
+                <h2>Cart</h2>
+
+                <form action="">
+
+                    <table>
+
+                        <!-- Head -->
+                        <thead>
+                            <tr>
+                                <th>Sản phẩm</th>
+                                <th>Giá</th>
+                                <th>SL</th>
+                                <th>Chọn</th>
+                            </tr>
+
+                        </thead>
+
+
+
+
+                        <!-- Body -->
+                        <tbody>
+
+
+
+                            <!-- <tr>
+                        <td style="display: flex; align-items: center;"><img src="img/SP/điên2.jpg" alt=""
+                                style="width: 70px">Kẻ điên bên trái</td>
+                        <td>
+                            <p><span>25.000</span><sup>đ</sup></p>
+                        </td>
+                        <td><input style="width: 30px; outline: none;" type="number" value="1" min="1"></td>
+                        <td style="cursor: pointer;">Xóa</td>
+                    </tr>
+
+
+                    <tr>
+                        <td style="display: flex; align-items: center;"><img src="img/SP/điên3.jpg" alt=""
+                                style="width: 70px">Kẻ điên bên trái</td>
+                        <td>
+                            <p><span>25.000</span><sup>đ</sup></p>
+                        </td>
+                        <td><input style="width: 30px; outline: none;" type="number" value="1" min="1"></td>
+                        <td style="cursor: pointer;">Xóa</td>
+                    </tr> -->
+
+
+
+                        </tbody>
+
+                    </table>
+
+                    <section style="text-align: right;" class="price-total">
+                        <p style="font-weight: bold;">Tổng tiền: <span> 0</span><sup>đ</sup></p>
+                    </section>
+
+                    <button>Mua hàng</button>
+
+                </form>
+
+
+
+            </section>
+
+        </main>
+
+
+
+
+
+
+
+        <!-- ********************************** Footer ******************************** -->
+
+        <footer>
+            <section class="common">
+
+                <section class="footer1">
+
+                    <section class="text">
+                        <p style="font-size: 30px; font-weight: 700; margin-top: 13px;">ĐĂNG KÝ NHẬN KHUYẾN MÃI</p>
+                        <p style="margin-bottom: 15px; margin-top: 10px; font-size: 14px;">Đừng bỏ lỡ lỡ những sản phẩm và chương trình khuyến mãi hấp dẫn</p>
+                    </section>
+
+                    <section class="form">
+                        <input type="email" placeholder="       Email của bạn">
+                        <section class="signout"><a href="#">Đăng ký</a></section>
+                    </section>
+                </section>
+
+                <section class="ft">
+                    <!-- Left -->
+                    <section class="left">
+                        <section class="img"><img src="./img/White_and_Black_Panda_Cute_T_Shirt-removebg-preview.png"
+                                alt="" width="100%"></section>
+
+                        <section class="information">
+                            <p><span><a href="./lienhe.html"><i class="fa-solid fa-location-dot"></i></a> Địa chỉ cửa hàng</span></p>
+                            <p>Số 163, phường Xuân Khánh, quận Ninh Kiều, TP.Cần Thơ</p>
+                            <p><span>Hotline:</span> 1900 4650 | <span>Email:</span> pandashop@lich.vn</p>
+                            <p><span>Web:</span> kinhdoanh.ml</p>
+                        </section>
+
+                        <section class="follow">
+                            <i class="fab fa-facebook-f"></i>
+                            <i class="fab fa-twitter"></i>
+                            <i class="fab fa-instagram"></i>
+                            <i class="fab fa-youtube"></i>
+                        </section>
+
+                        <section class="brand">
+                            <section><img src="./img/googleplay.png" alt="" width="150px"></section>
+                            <section><img
+                                    src="./img/png-clipart-google-play-apple-app-store-android-lecture-schedule-text-label-removebg-preview.png"
+                                    alt="" width="150px"></section>
+                        </section>
+                    </section>
+
+
+
+                    <!-- Right -->
+                    <section class="right">
+
+                        <section class="right1">
+                            <h2>Về chúng tôi</h2>
+                            <p>Trang chủ</p>
+                            <p>Giới thiệu</p>
+                            <p>Sản phẩm</p>
+                            <p>Tin tức</p>
+                            <p>Liên hệ</p>
+                        </section>
+
+
+                        <section class="right2">
+                            <h2>Chính sách</h2>
+                            <p>Bảo hành</p>
+                            <p>Sửa chữa</p>
+                            <p>Thu cũ đổi mới</p>
+                            <p>Bookcare</p>
+                            <p>Chăm sóc khách hàng</p>
+                        </section>
+
+                    </section>
+
+                </section>
+
+            </section>
+
+            <section class="license">
+                <p>@ Bản quyền thuộc về Panda Shop | Cung cấp bởi Floppy</p>
+            </section>
+
+        </footer>
+        <script src="./js/sp.js"></script>
+</body>
+
+</html>
